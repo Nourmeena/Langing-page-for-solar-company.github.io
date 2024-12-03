@@ -515,10 +515,11 @@ a {
 }
 
 
+/*qoutes section*/
 .qoutes-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 5% 5%;
+    grid-template-columns: repeat(2, auto);
+    padding: 5% 10%;
 }
 
 .qoutes-text h1 {
@@ -534,12 +535,12 @@ a {
 }
 
 .qoutes-content {
-    padding: 4%;
+    padding: 6%;
     border-radius: 24px;
     background: rgba(60, 171, 144, 0.06);
     display: flex;
     flex-flow: column;
-    gap: 30px;
+    gap: 50px;
 }
 
 .flex-1 {
@@ -549,8 +550,7 @@ a {
 
 .flex-1 img {
     width: auto;
-    height: auto;
-    max-height: 50px;
+    height: 2%;
 }
 
 .flex-1 h6 {
@@ -584,54 +584,6 @@ a {
     padding: 0;
 }
 
-@media (max-width: 768px) {
-    .qoutes-text h1 {
-        font-size: 1.5rem;
-    }
-
-    .qoutes-text p {
-        font-size: 0.9rem;
-    }
-
-    .qoutes-content {
-        padding: 3%;
-        gap: 20px;
-    }
-
-    .flex-1 h6 {
-        font-size: 0.9rem;
-    }
-
-    .qoute-header p {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .qoutes-text h1 {
-        font-size: 1.2rem;
-    }
-
-    .qoutes-text p {
-        font-size: 0.8rem;
-    }
-
-    .qoutes-content {
-        padding: 2%;
-    }
-
-    .flex-1 img {
-        max-height: 40px;
-    }
-
-    .flex-1 h6 {
-        font-size: 0.8rem;
-    }
-
-    .qoute-header p {
-        font-size: 0.9rem;
-    }
-}
 /* Footer */
 footer {
     background-color: rgba(40, 54, 70, 1);
