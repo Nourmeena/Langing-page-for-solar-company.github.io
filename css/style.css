@@ -80,7 +80,7 @@ a {
 /*Home container*/
 
 .home-container {
-    background: url(..images/solar-panels-meadow1.png);
+    background: url(../images/solar-panels-meadow1.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 40%;
@@ -259,7 +259,7 @@ a {
 /*call us*/
 .callUs-container {
     height: 470px;
-    background: url(images/81161.png) no-repeat center/cover;
+    background: url(../images/81161.png) no-repeat center/cover;
 }
 
 .callUs-content {
@@ -353,7 +353,7 @@ a {
 /*Repair section*/
 
 .repair-container {
-    background: url(images/81161\(1\).png) no-repeat center/cover;
+    background: url(../images/81161\(1\).png) no-repeat center/cover;
     height: 460px;
     display: flex;
     justify-content: center;
