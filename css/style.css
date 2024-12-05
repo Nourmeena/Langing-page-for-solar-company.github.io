@@ -80,7 +80,7 @@ a {
 /*Home container*/
 
 .home-container {
-    background: url(images/solar-panels-meadow1.png);
+    background: url(../images/solar-panels-meadow1.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 40%;
